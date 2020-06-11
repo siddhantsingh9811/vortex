@@ -20,8 +20,9 @@
 body{
 	font: normal 16px 'Roboto', sans-serif;
 	position: absolute; 
-	height: 100%;
+	height: 100vh;
 	width: 100%;
+	overflow: hidden;
 }
 
 div.wrapper{
@@ -65,7 +66,7 @@ section hgroup{margin-top: -360px;}  #idli{ margin-right: 0; align-self: center 
 
 section p.numbers{font-size: 6em;}
 section p.meta,section p.strings{font-size: 1.5em;}
-section h1{font-size: 4.5em; align-self: center;}
+section h1{font-size: 4.5em; align-self: center;margin-top: 50px;}
 
 /* countdown styles */
 
@@ -107,11 +108,19 @@ div.cd-box{
 
 /* footer */
 
-footer{
-	position: relative;
-	top: 60px;
-}
 
-footer p{
-  color: #787878;
+.oof
+{
+	display: inline-block;
+	margin-top: 4vh;
+}
+.a1
+{
+	float: left;
+	padding: 20px;
+}
+.a2
+{
+	float: right;
+	padding: 20px;
 }
